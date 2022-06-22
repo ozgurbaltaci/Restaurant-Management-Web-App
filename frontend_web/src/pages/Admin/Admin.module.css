@@ -1,0 +1,95 @@
+.container {
+  margin-bottom: 2vh;
+}
+.searchBoxContainer {
+  margin: 4vh auto;
+  width: 40%;
+  font-size: 0.85rem;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 96vw !important;
+    padding: 0 1vw;
+    margin: 0 auto;
+  }
+}
+.select {
+  margin: 0;
+  padding: 0;
+  margin-left: -4px;
+  border: none;
+  outline: none;
+}
+.item .iconCss {
+  display: none;
+}
+
+.item:hover .iconCss {
+  display: block;
+}
+.iconCss:active {
+  transition: ease-in-out 75ms;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.label {
+  font-size: 1.5vh;
+  display: flex;
+  align-items: flex-start;
+  color: gray;
+}
+
+.input {
+  display: block;
+  width: 100%;
+  min-height: 4.2vh;
+  padding: 0 0.3vw;
+  margin-bottom: 0.4vh;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  outline: none;
+  font-size: 1.6vh;
+}
+.passwordButtonCss {
+  width: 100% !important;
+  margin-top: 10px;
+  background-color: white !important;
+  color: #db4437 !important;
+  border: 1px solid #db4437 !important;
+}
+.passwordButtonCss:hover {
+  background-color: #db4437 !important;
+  color: white !important;
+  cursor: pointer;
+}
+.saveButtonCss {
+  width: 50% !important;
+
+  margin-top: 6px;
+  background-color: white !important;
+  color: #0f9d58 !important;
+  border: 1px solid #0f9d58 !important;
+  float: left;
+}
+.saveButtonCss:hover {
+  background-color: #0f9d58 !important;
+  color: white !important;
+  cursor: pointer;
+}
+.cancelButtonCss {
+  width: 50% !important;
+
+  margin-top: 6px;
+  background-color: white !important;
+  color: #666666 !important;
+  border: 1px solid #575757 !important;
+}
+.cancelButtonCss:hover {
+  background-color: #575757 !important;
+  color: white !important;
+  cursor: pointer;
+}
+.saveButtonCss + .cancelButtonCss {
+  margin-left: 15px;
+}

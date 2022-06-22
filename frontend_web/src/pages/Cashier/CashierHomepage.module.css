@@ -1,0 +1,99 @@
+.tablesKnowledge {
+  display: inline-block;
+  justify-content: center;
+  margin: 20px;
+}
+.empty {
+  margin: 3px;
+  float: left;
+  width: 20px;
+  height: 20px;
+  background-color: #0f9d58;
+}
+.e {
+  float: left;
+}
+.nonEmpty {
+  margin: 3px;
+  margin-left: 50px;
+  float: left;
+  width: 20px;
+  height: 20px;
+  background-color: #babcbe;
+}
+.n {
+  float: left;
+}
+.serve {
+  margin: 3px;
+  margin-left: 50px;
+  float: left;
+  width: 20px;
+  height: 20px;
+  background-color: #db4437;
+}
+.r {
+  float: left;
+}
+.searchContainer {
+  width: 100%;
+}
+.tables {
+  overflow: auto;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  width: 796px;
+  height: 75vh;
+}
+
+.tableItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 76px;
+  height: 76px;
+  background-color: #babcbe;
+}
+.tableOuterDiv {
+  display: inline-block;
+  padding: 10px;
+}
+
+.rightDiv {
+  background-color: #f6f6f6;
+  height: auto;
+  width: 400px;
+  padding: 15px;
+  border-radius: 5px;
+  position: relative;
+  margin-left: 50px;
+}
+
+.confirmOrder {
+  width: 92%;
+  height: 8%;
+  background-color: #0f9d58;
+  border-radius: 5px;
+  color: white;
+  position: absolute;
+  bottom: 0px;
+}
+
+.leftDiv {
+  margin-left: 10vw;
+  float: left;
+}
+
+.mainDiv {
+  display: flex;
+}
+.orderDetails {
+  display: flex;
+  position: relative;
+}
+
+.orderAmount {
+  position: absolute;
+  right: 5px;
+}

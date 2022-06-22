@@ -1,0 +1,94 @@
+.tablesKnowledge {
+  margin: auto;
+  justify-content: center;
+  width: 700px;
+  padding: 10px;
+}
+
+.empty {
+  margin: 1px;
+  float: left;
+  width: 20px;
+  height: 20px;
+  background-color: #0f9d58;
+}
+.nonEmpty {
+  margin: 1px;
+  float: left;
+  width: 20px;
+  height: 20px;
+  background-color: #babcbe;
+}
+.serve {
+  margin: 1px;
+  float: left;
+  width: 20px;
+  height: 20px;
+  background-color: #db4437;
+}
+
+.tables {
+  margin: auto;
+  overflow: auto;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  height: 500px;
+}
+
+.tableItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 76px;
+  height: 76px;
+}
+.tableOuterDiv {
+  display: inline-block;
+  padding: 10px;
+}
+
+.menuItem {
+  display: flex;
+  padding: 15px;
+  width: 600px;
+  position: relative;
+  border: 1px solid black;
+}
+.menuItem + .menuItem {
+  margin-top: 10px;
+}
+.menuItem p {
+  margin: auto 0 auto 10px;
+}
+
+.decreaseAmountButton {
+  margin-left: 10px;
+}
+.increaseAmountButton {
+  margin-left: 10px;
+}
+.productAmount {
+  margin-left: 10px;
+}
+.price {
+  margin-left: 10px;
+}
+.orderDetails {
+  display: flex;
+  position: absolute;
+  margin-top: 18px;
+  right: 20px;
+}
+.popUpContent {
+  height: 50vh;
+  overflow: auto;
+}
+
+.orderSaveButton {
+  width: 100%;
+  margin-top: 20px;
+  background-color: #0f9d58;
+  border-radius: 5px;
+  color: white;
+}
